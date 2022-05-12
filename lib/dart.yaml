@@ -8,6 +8,8 @@ analyzer:
     invalid_override_of_non_virtual_member: error
     annotate_overrides: error
     always_use_package_imports: error
+    invalid_use_of_visible_for_testing_member: error
+    missing_return: error
 
 linter:
   rules:
