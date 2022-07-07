@@ -8,6 +8,10 @@ analyzer:
     invalid_override_of_non_virtual_member: error
     annotate_overrides: error
     always_use_package_imports: error
+    invalid_use_of_visible_for_testing_member: error
+    missing_return: error
+    avoid_void_async: error
+    file_names: error
 
 linter:
   rules:
@@ -28,3 +32,10 @@ linter:
     annotate_overrides: true
     prefer_single_quotes: true
     require_trailing_commas: true
+    avoid_void_async: true
+    file_names: true
+    tighten_type_of_initializing_formals: true
+    use_super_parameters: true
+    sort_child_properties_last: true
+    unsafe_html: true
+    use_full_hex_values_for_flutter_colors: true
